@@ -2,11 +2,10 @@
 
 date_default_timezone_set('Asia/Taipei');
 
-class Error extends Exception{
+class CustomError extends Exception{
     public function setMessage($message){
         $this->message = $message;
     }
-
 }
 
 
@@ -88,7 +87,7 @@ class Exporter
             unset($obj->law_reasons); // XXX: 姓名條例對不到
 
         if (!preg_match('#中華民國(.*)年(.*)月(.*)日(.*)#', $obj->versions[count($obj->versions) - 1], $matches)) {
-            throw new Error("找不到最後時間");
+            throw new CustomError("找不到最後時間");
         }
         $ret->commit_at = sprintf("%d/%d/%d", $matches[1] + 1911, $matches[2], $matches[3]);
         $ret->commit_log = $obj->title . ' ' . implode(',', array_map(function($a) {
@@ -121,7 +120,7 @@ class Exporter
             var_dump($ret);
             echo 'obj=';
             var_dump($obj);
-            throw new Error("還有 obj 未處理");
+            throw new CustomError("還有 obj 未處理");
         }
         return $ret;
     }
@@ -137,7 +136,7 @@ class Exporter
             }
         }
         return '';
-        throw new Error("找不到 td.artipud_RS_2");
+        throw new CustomError("找不到 td.artipud_RS_2");
     }
 
     public function parseRelateHTML($content)
@@ -207,7 +206,7 @@ class Exporter
             // 正常來說 <tr> 裡面只會有一個 <td>
             if ($td_doms->length != 1) {
                 echo $doc->saveHtml($tr_dom);
-                throw new Error("td 應該只有一個");
+                throw new CustomError("td 應該只有一個");
             }
             $td_dom = $td_doms->item(0);
             $name = null;
@@ -262,7 +261,7 @@ class Exporter
                 $cnode = $td_dom->childNodes->item($pos);
                 if ($cnode->nodeName != 'table') {
                     echo $doc->saveHtml($tr_dom);
-                    throw new Error("tr 下應該要有 <font/> 和 <table />");
+                    throw new CustomError("tr 下應該要有 <font/> 和 <table />");
                 }
 
                 $td_dom = $cnode->getElementsByTagName('td')->item(1);
@@ -295,7 +294,7 @@ class Exporter
                         $record->{'進度'} = $td_doms->item(0)->nodeValue;
                         $record->{'會議日期'} = $td_doms->item(1)->nodeValue;
                         if (!$td_doms->item(2)) {
-                            throw new Error("找不到立法紀錄的表格");
+                            throw new CustomError("找不到立法紀錄的表格");
                         }
                         $record->{'立法紀錄'} = $td_doms->item(2)->nodeValue;
                         if ($td_doms->item(2)->getElementsByTagName('a')->item(0)) {
@@ -367,7 +366,7 @@ class Exporter
                 }
             }
             if (!$font_dom) {
-                throw new Error("找不到 {$reason} 對應到的 .artiupd_TH_1 是哪一條");
+                throw new CustomError("找不到 {$reason} 對應到的 .artiupd_TH_1 是哪一條");
             }
             $reasons->{trim($font_dom->nodeValue)} = $reason;
         }
@@ -442,14 +441,19 @@ class Exporter
             }
 
             // 先抓本文
-            $content = file_get_contents("laws/{$id}/{$versions[0]}.html");
+            try {
+                $content = file_get_contents("laws/{$id}/{$versions[0]}.html");
+            } catch (CustomError $e) {
+                $e->setMessage("Skipping not found file: laws/{$id}/{$versions[0]}.html");
+                continue;
+            }
             $obj = new StdClass;
             $obj->title = $title;
             $obj->versions = $versions;
             $obj->types = $types;
             try {
                 $obj->law_data = $this->parseLawHTML($content);
-            } catch (Error $e) {
+            } catch (CustomError $e) {
                 $e->setMessage("{$title} {$versions[0]} {$e->getMessage()}");
                 throw $e;
             }
@@ -480,7 +484,7 @@ class Exporter
                     } else {
                         throw new Exception("TODO {$type} 未處理");
                     }
-                } catch (Error $e) {
+                } catch (CustomError $e) {
                     $e->setMessage("{$title} {$versions[0]} {$type} {$e->getMessage()}");
                     throw $e;
                 } catch (Exception $e) {
@@ -488,7 +492,7 @@ class Exporter
                 }
             }
             if (!preg_match('#中華民國(.*)年(.*)月(.*)日#', $obj->versions[count($obj->versions) - 1], $matches)) {
-                throw new Error("找不到最後時間");
+                throw new CustomError("找不到最後時間");
             }
             $commit_at = sprintf("%04d%02d%02d", $matches[1] + 1911, $matches[2], $matches[3]);
             file_put_contents("law_cache/{$id}.json", json_encode($obj));
@@ -514,7 +518,7 @@ class Exporter
 
             try {
                 $info = self::genContent($obj, $laws);
-            } catch (Error $e) {
+            } catch (CustomError $e) {
                 $e->setMessage("{$title} {$versions[0]} {$e->getMessage()}");
                 throw $e;
             }
