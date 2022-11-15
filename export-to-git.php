@@ -54,7 +54,8 @@ class Exporter
                     if (property_exists($record->relates, $type)) {
                         foreach ($record->relates->{$type} as $relate_law) {
                             if (!array_key_exists($relate_law->law_no, $laws)) {
-                                throw new Exception("找不到 {$relate_law->law_no}");
+                                echo "找不到 {$relate_law->law_no}";
+                                continue;
                             }
                             $relate_url = sprintf("../../%s/%s/%s.md",
                                 $laws[$relate_law->law_no]['categories'][0][0],
