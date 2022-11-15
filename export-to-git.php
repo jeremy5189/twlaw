@@ -5,6 +5,7 @@ date_default_timezone_set('Asia/Taipei');
 class CustomError extends Exception{
     public function setMessage($message){
         $this->message = $message;
+        echo $message;
     }
 }
 
@@ -196,7 +197,11 @@ class Exporter
     {
         $doc = new DOMDocument;
         @$doc->loadHTML($content);
-        $table_dom = $doc->getElementById('C_box')->getElementsByTagName('table')->item(1);
+        $c_box = $doc->getElementById('C_box');
+        if (!$c_box) {
+            throw new CustomError("找不到 #C_box");
+        }
+        $table_dom = $c_box->getElementsByTagName('table')->item(1);
 
         $lines = array();
 
