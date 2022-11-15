@@ -460,7 +460,7 @@ class Exporter
                 $obj->law_data = $this->parseLawHTML($content);
             } catch (CustomError $e) {
                 $e->setMessage("{$title} {$versions[0]} {$e->getMessage()}");
-                throw $e;
+                continue;
             }
 
             foreach ($obj->law_data as $record) {
