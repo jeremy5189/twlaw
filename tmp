@@ -189,11 +189,11 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="first">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>一讀</td>
-<td class=sumtd2000>1090522</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfcbc9cfcec4cfcfcfc6c4cfcfcfc6 title="PDF文字型電子檔" target=pdftxt><nobr>109卷046期4795號一冊 9-9頁</nobr></a></td>
+<td class=sumtd2000>1090522</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfcbc9cfcec4cfcfcfc6c4cfcfcfc6 title="PDF文字型電子檔" target=pdftxt><nobr>109卷046期4795號一冊 9-9頁</nobr></a></td>
 <td class=sumtd2002>翁重鈞</td><td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100114:LCEWA01_100114_00075 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(提案)</td>
 </tr>
 </tr><tr><td class=sumtd1>一讀</td>
-<td class=sumtd2000>1090918</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfcacbcfcec4cfcfcecec4cfcfcece title="PDF文字型電子檔" target=pdftxt><nobr>109卷054期4803號 11-11頁</nobr></a></td>
+<td class=sumtd2000>1090918</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfcacbcfcec4cfcfcecec4cfcfcece title="PDF文字型電子檔" target=pdftxt><nobr>109卷054期4803號 11-11頁</nobr></a></td>
 <td class=sumtd2002>沈發惠</td><td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100201:LCEWA01_100201_00016 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(提案)</td>
 </tr>
 </tr></table>
@@ -201,7 +201,7 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="committee">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>委員會審查</td>
-<td class=sumtd2000>1091028</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfc8c9cfcec4cfcfc9c6c4cfcecaca title="PDF文字型電子檔" target=pdftxt><nobr>109卷076期4825號 69-155頁</nobr></a></td>
+<td class=sumtd2000>1091028</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfc8c9cfcec4cfcfc9c6c4cfcecaca title="PDF文字型電子檔" target=pdftxt><nobr>109卷076期4825號 69-155頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
@@ -210,7 +210,7 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="consult">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>黨團協商</td>
-<td class=sumtd2000>1101207</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecdcfcec4cfccc9cec4cfccc9cd title="PDF文字型電子檔" target=pdftxt><nobr>111卷012期4983號 361-362頁</nobr></a></td>
+<td class=sumtd2000>1101207</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecdcfcec4cfccc9cec4cfccc9cd title="PDF文字型電子檔" target=pdftxt><nobr>111卷012期4983號 361-362頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
@@ -219,7 +219,7 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="second1">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>二讀(廣泛討論)</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcecfc4cfcbcbcf title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 410-440頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcecfc4cfcbcbcf title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 410-440頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100414:40008_1 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(審查報告)</td>
 </tr>
@@ -228,7 +228,7 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="second2">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>二讀(逐條討論)</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcbcfc4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 440-441頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcbcfc4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 440-441頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100414:40008_2 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(審查報告)</td>
 </tr>
@@ -237,7 +237,7 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="third">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>三讀</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcbcec4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 441-441頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcbcec4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 441-441頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
@@ -246,35 +246,35 @@ document.getElementById(args[args.length-1]).className = "stay";
 <div id="all">
 <table border=0 cellspacing=0 width=100%>
 <tr><td class=sumtd1>一讀</td>
-<td class=sumtd2000>1090522</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfcbc9cfcec4cfcfcfc6c4cfcfcfc6 title="PDF文字型電子檔" target=pdftxt><nobr>109卷046期4795號一冊 9-9頁</nobr></a></td>
+<td class=sumtd2000>1090522</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfcbc9cfcec4cfcfcfc6c4cfcfcfc6 title="PDF文字型電子檔" target=pdftxt><nobr>109卷046期4795號一冊 9-9頁</nobr></a></td>
 <td class=sumtd2002>翁重鈞</td><td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100114:LCEWA01_100114_00075 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(提案)</td>
 </tr>
 </tr><tr><td class=sumtd1>一讀</td>
-<td class=sumtd2000>1090918</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfcacbcfcec4cfcfcecec4cfcfcece title="PDF文字型電子檔" target=pdftxt><nobr>109卷054期4803號 11-11頁</nobr></a></td>
+<td class=sumtd2000>1090918</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfcacbcfcec4cfcfcecec4cfcfcece title="PDF文字型電子檔" target=pdftxt><nobr>109卷054期4803號 11-11頁</nobr></a></td>
 <td class=sumtd2002>沈發惠</td><td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100201:LCEWA01_100201_00016 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(提案)</td>
 </tr>
 </tr><tr><td class=sumtd1>委員會審查</td>
-<td class=sumtd2000>1091028</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecfc6cfc8c9cfcec4cfcfc9c6c4cfcecaca title="PDF文字型電子檔" target=pdftxt><nobr>109卷076期4825號 69-155頁</nobr></a></td>
+<td class=sumtd2000>1091028</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecfc6cfc8c9cfcec4cfcfc9c6c4cfcecaca title="PDF文字型電子檔" target=pdftxt><nobr>109卷076期4825號 69-155頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
 </tr><tr><td class=sumtd1>黨團協商</td>
-<td class=sumtd2000>1101207</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecdcfcec4cfccc9cec4cfccc9cd title="PDF文字型電子檔" target=pdftxt><nobr>111卷012期4983號 361-362頁</nobr></a></td>
+<td class=sumtd2000>1101207</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecdcfcec4cfccc9cec4cfccc9cd title="PDF文字型電子檔" target=pdftxt><nobr>111卷012期4983號 361-362頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
 </tr><tr><td class=sumtd1>二讀(廣泛討論)</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcecfc4cfcbcbcf title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 410-440頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcecfc4cfcbcbcf title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 410-440頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100414:40008_1 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(審查報告)</td>
 </tr>
 </tr><tr><td class=sumtd1>二讀(逐條討論)</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcbcfc4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 440-441頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcbcfc4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 440-441頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003><a href=https://lis.ly.gov.tw/lygazettec/mtcdoc?DN100414:40008_2 target=word title="資料來源：議事暨公報管理系統"><img src="https://lis.ly.gov.tw/lydb/img/doc_icon.png" border=0></a>(審查報告)</td>
 </tr>
 </tr><tr><td class=sumtd1>三讀</td>
-<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c7cacfc7cac6cb81cecececfcecacfcdc4cfcbcbcec4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 441-441頁</nobr></a></td>
+<td class=sumtd2000>1101221</td><td class=sumtd2001><a href=https://lis.ly.gov.tw/lgcgi/lypdftxt?xdd!cec9c9c6cdcccdcacac981cecececfcecacfcdc4cfcbcbcec4cfcbcbce title="PDF文字型電子檔" target=pdftxt><nobr>111卷015期4986號二冊 441-441頁</nobr></a></td>
 <td class=sumtd2002>&nbsp;</td>
 <td class=sumtd2003>&nbsp;</td>
 </tr>
@@ -292,5 +292,5 @@ Copyright&nbsp;c2015&nbsp;&nbsp;立法院國會圖書館&nbsp;&nbsp;服務專線
 </table>
 </body>
 </html>
-<input type=hidden name=INFO value=980681CC660324190681C0CB0303984691C406131399E689C406E54423C83219C85303180681C0060303A22681C0060303180681C0060303180681C00643139907C10D6653431C0681>
+<input type=hidden name=INFO value=4C81C066660CDC0C81C006CB0CC04C91C826064CC4CCB9C426069711913219C8C84DC00C81C006060CC05189C006060CC00C81C006060CC00C81C00606CCD0CC22D4C6C68CC8CC81C0>
 </form></body></html>
